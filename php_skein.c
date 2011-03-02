@@ -180,7 +180,7 @@ PHP_FUNCTION(skein_hash_hex)
         abort();
     }
     do {
-        *resptr++ = hexits[hash[j] >> 4];
+        *resptr++ = hexits[(hash[j] & 0xf0) >> 4];
         *resptr++ = hexits[hash[j] & 0x0f];
     } while (++j < real_hash_size);
     *resptr = 0;
