@@ -29,7 +29,7 @@ zend_module_entry skein_module_entry = {
 	NULL,
 	PHP_MINFO(skein),
 #if ZEND_MODULE_API_NO >= 20010901
-	"1.0",
+	"1.1",
 #endif
 	STANDARD_MODULE_PROPERTIES
 };
