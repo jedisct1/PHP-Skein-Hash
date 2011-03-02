@@ -66,7 +66,7 @@ $hash = skein_hash($string, 800);
 Skein hash function by Doug Whiting.
 Skein hash function family home page: http://www.skein-hash.info/
 
-PHP extension by Frank Denis <j at pureftpd dot org>, 2008-2011,
+PHP extension by Frank Denis <j at pureftpd dot org>, 2008-2011.
 
 The PHP extension can be downloaded from:
 
