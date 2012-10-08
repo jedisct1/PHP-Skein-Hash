@@ -14,7 +14,11 @@
 zend_function_entry skein_functions[] = {
 	PHP_FE(skein_hash, NULL)
 	PHP_FE(skein_hash_hex, NULL)    
-	{NULL, NULL, NULL}
+#ifdef PHP_FE_END
+	PHP_FE_END
+#else
+	{ NULL, NULL, NULL }
+#endif
 };
 
 zend_module_entry skein_module_entry = {
