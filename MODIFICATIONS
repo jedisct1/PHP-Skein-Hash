@@ -1,0 +1,6 @@
+Some modifications were made to this library for PHP 7 and PHP 8 compatibility.
+It was last tested with PHP 8.4.
+
+This code is from the fork here: https://github.com/joshua-m-david/PHP-Skein-Hash.
+
+The changes can be viewed against the base fork here: https://github.com/jedisct1/PHP-Skein-Hash/compare/master...joshua-m-david:master
